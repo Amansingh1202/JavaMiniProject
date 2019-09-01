@@ -62,3 +62,31 @@ html,body
     text-align: center;
     font-size: 20px;
 }
+.address{
+    padding-top: 100px;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 50px;
+}
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    padding-top: 10%;
+    position:relative;
+    height:0; 
+}
+.map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.address h2{
+    font-size: 200%;
+    color: cadetblue;
+}
+.address h3{
+    font-size: 150%;
+    color: cadetblue;
+}
