@@ -4,7 +4,11 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    
+}
+body{
+    background-color: floralwhite !important;
 }
 .carousel-item {
   height: 100vh;
@@ -111,4 +115,39 @@ video {
   width: 100%;
   height: auto;
     margin-bottom: 20px;
+}
+.reviewvideo{
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+    height: auto;
+    margin-top: 60px;
+}
+.reviewsection{
+    margin-bottom: 5%;
+    margin-top: 2%;
+    
+}
+.reviewsection h2{
+    font-size: 170%;
+}
+.submitbtn{
+     background-color: orange;
+  border: curl;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+    border-radius: 2px;
+}
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;
 }
